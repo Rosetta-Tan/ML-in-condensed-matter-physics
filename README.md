@@ -1,1 +1,1 @@
-# ML-in-condensed-matter-physics
+lecture notes in the course
