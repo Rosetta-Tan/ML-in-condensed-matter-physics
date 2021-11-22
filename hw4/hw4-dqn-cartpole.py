@@ -380,7 +380,7 @@ class Simulation:
 		plt.ylabel('Episode Reward')
 		plt.title('Train')
 		plt.legend(['instance {}'.format(i) for i in range(instances)])
-		plt.show()
+		plt.savefig("train_fig")
 		plt.close()
 
 	def test(self, max_steps, visualize=True):
@@ -413,7 +413,7 @@ class Simulation:
 		plt.xlabel('Step')
 		plt.ylabel('Episode Reward')
 		plt.title('Test')
-		plt.show()
+		plt.savefig("test_fig")
 		plt.close()
 
 
