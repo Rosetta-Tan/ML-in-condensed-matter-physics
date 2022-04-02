@@ -1,1 +1,1 @@
-I just want to test pull request
+Resources and homeworks for the course **Introduction to ML methods in CMP** lectured by Prof. Yi Zhang at ICQM, Peking University in Fall 2021.
