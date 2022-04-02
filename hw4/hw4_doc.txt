@@ -1,0 +1,9 @@
+Reinforcement learning for CartPole problem.
+
+Please run the program (hw4-dqn-cartpole.py)*, tune parameters and plot the figures of episode rewards during training and testing respectively. For the parameter 'instance', we recommend setting it to 1, because when it is greater than 1, the convergence will become difficult. The example figures with the parameter 'instance' equal to 1 and 3 are shown below.
+
+Submit the runtime outputs and the best figures on the course.pku.edu.cn**.
+
+* You need to install TensorFlow and OpenAI Gym modules in advance, just run 'pip install tensorflow gym'.
+
+**It is recommended to submit text and image files directly instead of packaging them into zip or rar files before submission.

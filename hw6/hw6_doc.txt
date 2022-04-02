@@ -1,0 +1,13 @@
+Unsupervised learning of Ising model (ferromagnetic/paramagnetic phase), include PCA, t-SNE and k-means.
+
+We provide two versions of the code, by writing from scratch (MyXXX) and import from scikit-learn respectively.
+
+This homework needs to use the dataset of homework 3-1, if you have deleted it, you can download it from this link:  https://disk.pku.edu.cn:443/link/9D37AD8BE5F2F92083A3CC21AC451BE6 .
+
+Please run the program (hw6-unsupervised.py)*, tune parameters and plot the figures.
+
+Submit the runtime outputs and the best figures on the course.pku.edu.cn.
+
+Note that you need to submit a total of 8 figures, the example figures are shown below. 
+
+* You need to install scikit-learn modules in advance, just run 'pip install scikit-learn'.

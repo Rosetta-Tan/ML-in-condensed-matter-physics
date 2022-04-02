@@ -1,0 +1,9 @@
+Restricted Boltzmann machine (RBM) for MNIST.
+
+Please run the program (hw5-rbm.py)*, tune parameters and plot the figures. The task of generating handwritten digits is very difficult and does not require good results.
+
+Submit the runtime outputs and the best figures on the course.pku.edu.cn.
+
+Note that you need to submit a total of 8 figures, the example figures are shown below.
+
+*Since some students reported that TensorFlow is not compatible with Apple M1, this time the code is written in PyTorch. For the installation of PyTorch, please refer to https://pytorch.org/get-started/locally/ .

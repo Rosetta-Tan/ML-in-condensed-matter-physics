@@ -1,0 +1,20 @@
+----- hw3-1 -----
+
+The Classification of Ising model (ferromagnetic/paramagnetic phase).
+
+It takes a lot of time to generate the datasets, if you do not have enough computing resources, you can use the dataset we provide (https://disk.pku.edu.cn:443/link/58049653E3D9110A06AE57B2C539B438).
+
+Please run the program (hw3-Ising.py), tune parameters and plot the phase diagram. The example of the phase diagram is shown below.
+
+Submit the runtime outputs and the best phase diagram on the course.pku.edu.cn.
+
+
+----- hw3-2 -----
+
+The Classification of Chern/normal insulator.
+
+It takes a lot of time to generate the datasets, if you do not have enough computing resources, you can use the dataset we provide ( https://disk.pku.edu.cn:443/link/A44A44F2A60BBEA24F0041D112F3CC79).
+
+Please run the program (hw3-Insulator.py), tune parameters and plot the phase diagram. The example of the phase diagram is shown below.
+
+Submit the runtime outputs and the best phase diagram on the course.pku.edu.cn.
