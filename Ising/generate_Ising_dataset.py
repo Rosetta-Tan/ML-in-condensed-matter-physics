@@ -152,7 +152,7 @@ def generate_Ising_configurations(L, numSamplesPerT, Ts, equilibrationSteps=100)
     return all_data
 
 
-def split_training_data(all_data, Ts, Tc=np.log(1 + np.sqrt(2)), train_fraction=0.8):
+def split_training_data(all_data, Ts, Tc=2. / np.log(1 + np.sqrt(2)), train_fraction=0.8):
     # Lists to store the raw data
     raw_T = []
     raw_x = []
@@ -193,6 +193,7 @@ if __name__ == '__main__':
     Ts = np.arange(1.95, 0.04, -0.1) * 2.27
     # For a few different system sizes, store the data in a dictionary with L as key
     all_data = generate_Ising_configurations(10, 1000, Ts)
+    # train_Ts = list(Ts[:4]) + list(Ts[-4:])
     [raw_T, raw_x, raw_y], [train_T, train_x, train_y], [
         test_T, test_x, test_y] = split_training_data(all_data, Ts)
     np.savez('raw_dataset', T=raw_T, x=raw_x, y=raw_y)
